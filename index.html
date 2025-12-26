@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>Amor em Java</title>
+  <title>Amor em Python</title>
   <style>
     body {
       background-color: #0f172a;
@@ -12,39 +12,53 @@
     }
     .code {
       background: #020617;
-      padding: 20px;
-      border-radius: 12px;
-      max-width: 800px;
+      padding: 24px;
+      border-radius: 14px;
+      max-width: 900px;
       margin: auto;
+      box-shadow: 0 0 25px rgba(0,0,0,0.4);
     }
     .comment { color: #38bdf8; }
+    .keyword { color: #f472b6; }
     .string { color: #a7f3d0; }
+    .button {
+      display: inline-block;
+      margin-top: 24px;
+      padding: 12px 20px;
+      color: #38bdf8;
+      border: 1px solid #38bdf8;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .button:hover {
+      background-color: #38bdf8;
+      color: #020617;
+    }
   </style>
 </head>
 <body>
 
 <div class="code">
 <pre>
-<span class="comment">// Projeto iniciado no dia que você entrou na minha vida</span>
+<span class="comment"># Script iniciado no dia que você entrou na minha vida</span>
 
-public class Amor {
-    public static void main(String[] args) {
+<span class="keyword">def</span> amor():
+    sentimento = <span class="keyword">True</span>
 
-        boolean teAmo = true;
+    <span class="keyword">if</span> sentimento:
+        <span class="keyword">print</span>(<span class="string">"Clique abaixo ❤️"</span>)
 
-        if (teAmo) {
-            System.out.println(<span class="string">"Clique abaixo ❤️"</span>);
-        }
-    }
-}
+amor()
 </pre>
 
-<p style="text-align:center; margin-top:20px;">
-  <a href="https://drive.google.com/file/d/14RAmmr1_d8fJwLQzqqCLNFMKW4cXfEUm/view?usp=drive_link target="_blank" style="color:#38bdf8;">
-    ▶ Executar programa
+<div style="text-align:center;">
+  <a class="button" href="https://drive.google.com/file/d/14RAmmr1_d8fJwLQzqqCLNFMKW4cXfEUm/view?usp=drive_link" target="_blank">
+    ▶ Executar script
   </a>
-</p>
+</div>
 </div>
 
 </body>
 </html>
+
