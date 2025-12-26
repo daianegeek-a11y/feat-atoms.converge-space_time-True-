@@ -1,80 +1,42 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <title>Amor em Python</title>
-  <style>
-    body {
-      background-color: #0f172a;
-      color: #e5e7eb;
-      font-family: monospace;
-      padding: 40px;
-    }
-    .code {
-      background: #020617;
-      padding: 24px;
-      border-radius: 14px;
-      max-width: 900px;
-      margin: auto;
-      box-shadow: 0 0 25px rgba(0,0,0,0.4);
-    }
-    .comment { color: #38bdf8; }
-    .keyword { color: #f472b6; }
-    .string { color: #a7f3d0; }
-    .button {
-      display: inline-block;
-      margin-top: 24px;
-      padding: 12px 20px;
-      color: #38bdf8;
-      border: 1px solid #38bdf8;
-      border-radius: 8px;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    .button:hover {
-      background-color: #38bdf8;
-      color: #020617;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <title>Amor em Python</title>
+    <style>
+        body {
+            background-color: #0f172a;
+            color: #e5e7eb;
+            font-family: monospace;
+            padding: 40px;
+        }
+        .codigo {
+            background: #020617;
+            padding: 24px;
+            border-radius: 14px;
+            max-width: 900px;
+            margin: auto;
+            box-shadow: 0 0 25px rgba(0,0,0,.4);
+        }
+        pre {
+            white-space: pre-wrap;
+        }
+    </style>
 </head>
 <body>
 
-<div class="code"><div class="codigo">
-
+<div class="codigo">
 <pre><code>
-# código que você já tinha
+# amor.py
+
+VOCÊ = "meu lugar seguro"
+AMOR = float("inf")
+
+def viver():
+    return f"{VOCÊ}, hoje, amanhã e sempre ❤️"
+
+print(viver())
 </code></pre>
-
-<pre><code>
-# programa_principal.py
-
-amor = True
-lugar_seguro = "você"
-
-while amor:
-    print(f"{lugar_seguro} é meu lugar seguro ❤️")
-    break
-</code></pre>
-
-</div>
-
-<pre>
-<span class="comment"># Script iniciado no dia que você entrou na minha vida</span>
-
-<span class="keyword">def</span> amor():
-    sentimento = <span class="keyword">True</span>
-
-    <span class="keyword">if</span> sentimento:
-        <span class="keyword">print</span>(<span class="string">"Clique abaixo ❤️"</span>)
-
-amor()
-</pre>
-
-<div style="text-align:center;">
-  <a class="button" href="https://drive.google.com/file/d/14RAmmr1_d8fJwLQzqqCLNFMKW4cXfEUm/view?usp=drive_link" target="_blank">
-    ▶ Executar script
-  </a>
-</div>
 </div>
 
 </body>
